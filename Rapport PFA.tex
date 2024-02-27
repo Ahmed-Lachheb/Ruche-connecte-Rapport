@@ -1,0 +1,111 @@
+\documentclass[a4paper,12pt]{report}
+\usepackage{graphicx}
+\graphicspath{ {figures/} }
+\usepackage{array}
+\usepackage{lipsum}
+\usepackage{float}
+\usepackage{siunitx}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[belowskip=-10pt,aboveskip=10 pt]{caption}
+\usepackage{setspace}
+\doublespacing
+\setlength{\intextsep}{20pt plus 2pt minus 2pt}
+\setlength{\belowcaptionskip}{-15pt}
+\usepackage{natbib}
+\usepackage[french]{babel}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\lhead{ISET BEJA}
+\renewcommand{\headrulewidth}{1mm}
+\renewcommand{\footrulewidth}{1mm}
+\begin{document}
+	\pagestyle{empty}
+	%	\tableofcontents
+	%	\listoffigures
+	%	\listoftables
+	\chapter{ }
+	\section*{Contexte }
+	Dans le contexte de ce projet de ruche connectée, le besoin principal est de moderniser et d'optimiser la gestion apicole en utilisant des technologies IoT pour surmonter les défis rencontrés par les apiculteurs. Voici les principaux besoins couverts par une ruche connectée dans ce projet :
+	
+	\textbf{Surveillance en Temps Réel :} La ruche connectée permet une surveillance constante des conditions environnementales, telles que la température, l'humidité, et les niveaux de pesticides, offrant ainsi une compréhension approfondie du microclimat des ruches.
+	
+	\textbf{Pesée Automatisée :}L'intégration de capteurs de poids permet une évaluation précise du poids des ruches sans nécessiter d'intervention manuelle. Cela aide les apiculteurs à suivre la croissance des colonies et à détecter tout déséquilibre.
+	
+	
+	\textbf{Alertes en Temps Réel :} La ruche connectée génère des alertes automatiques en cas de situations critiques, permettant aux apiculteurs de réagir rapidement face à des problèmes potentiels, tels que des changements brusques de la météo ou des signes de maladies chez les abeilles.
+	
+	\textbf{Collecte de Données Précises :}Les capteurs spécialisés IoT fournissent des données précises et en temps réel, éliminant les erreurs potentielles liées à la collecte manuelle et permettant une analyse approfondie pour prendre des décisions éclairées.
+	
+	\textbf{Connectivité à Distance :} La connectivité IoT permet aux apiculteurs d'accéder aux données de leurs ruches à distance, réduisant ainsi la nécessité de déplacements fréquents sur le terrain.
+	
+	\textbf{Plateforme de Gestion Intelligente :} Une plateforme cloud centralise les données, offrant une interface utilisateur conviviale pour la visualisation, l'analyse et la gestion des informations relatives à chaque ruche.
+	
+	\textbf{Protection Contre les Pesticides :} Les capteurs spécifiques détectent la présence de pesticides, permettant aux apiculteurs de prendre des mesures préventives pour protéger la santé des abeilles.
+	
+	Pour répondre à ces besoins, il serait nécessaire de commander un ensemble de composants IoT, tels que des capteurs météorologiques, des capteurs de poids, des capteurs de santé des abeilles, des dispositifs de communication IoT, ainsi que les services associés, tels que la plateforme cloud pour le stockage et l'analyse des données. Les commandes pourraient également inclure des dispositifs spécifiques pour la pesée automatisée des ruches et des capteurs de détection de pesticides. L'ensemble de ces éléments permettra la mise en place d'un système complet de ruche connectée.
+	\section*{Problématique}
+	Les abeilles, jouant un rôle essentiel dans l'équilibre écologique, font actuellement face à des menaces sérieuses, notamment le développement humain, l'utilisation de pesticides, les maladies et le changement climatique, entraînant une diminution alarmante de leurs populations. Face à ces défis pressants, les apiculteurs se trouvent contraints de mettre en place une surveillance régulière et systématique de leurs ruches, non seulement pour suivre la production de miel, mais également pour détecter toute anomalie potentielle.
+	
+	Cependant, l'inspection manuelle des ruches représente un défi majeur. Les déplacements fréquents dans les champs, nécessaires à un contrôle efficace, entraînent une perte de temps et d'efforts considérable. De plus, la précision des mesures météorologiques, telles que la température et l'humidité, est compromise en raison de divers paramètres perturbateurs. La mesure manuelle du poids individuel de chaque ruche peut causer des dommages aux colonies d'abeilles, tandis que l'exposition aux pesticides constitue une contrainte supplémentaire, affectant la santé des abeilles et contribuant au déclin de leurs populations.
+	
+	La gestion d'un grand nombre de ruches entraîne également une perte significative de temps lors de la collecte des mesures. De plus, l'organisation manuelle des informations provenant des ruches rend les études visant à identifier les zones propices à une production optimale de miel difficiles et imprécises.
+	
+	Notre ambitieux projet aspire à concevoir et déployer une ruche connectée intelligente, représentant une solution novatrice destinée à révolutionner la gestion des colonies d'abeilles. Confrontés aux défis complexes actuels de l'apiculture, notre ruche intelligente s'engage à intégrer des technologies de pointe afin d'optimiser la surveillance des ruches, alléger les contraintes opérationnelles pesant sur les apiculteurs, et jouer un rôle essentiel dans la préservation des abeilles, ces précieux pollinisateurs de notre écosystème.
+	
+	
+	\section*{Cahier de charge}
+	Pour que le système soit efficace et bien adapté aux besoins de nos apiculteurs, il
+	est nécessaire qu’il obéi à un certain nombre de critères, d’exigences et de contraintes. Ces différents points doivent être le résultat d’une réflexion profonde qui prennent en compte :
+	
+	
+	\begin{itemize}
+		\item [$\bullet$] Les besoins spécifiques de l’apiculteur
+		\item [$\bullet$]Le système doit être concurrentiel
+		\item [$\bullet$] La nature du lieu où le système doit être implanté 
+		\item [$\bullet$]Les effets nuisibles du système sur le ruché 
+		\item [$\bullet$]Les bénéfices escomptés du système 
+		\item [$\bullet$] L’efficacité du système 
+		\item [$\bullet$] L’estimation du prix du système 
+		
+	\end{itemize}
+	
+	\textbf{Pour la réalisation de notre système nous avons fixé un certain nombre d’exigence et de contraintes qui peuvent être énuméré comme suit }
+	
+	\begin{itemize}
+		\item [$\bullet$] Le système doit fonctionner de manière autonome  
+		\item [$\bullet$] Le système doit être reconfigurable 
+		\item [$\bullet$]Le système doit être facilement intégrables dans les ruches 
+		\item [$\bullet$]Transfert de données sans fil vers un stockage de données centralisé 
+		\item [$\bullet$] Les données mesurées doivent également être accessibles à un apiculteur sans transfert vers une base de données centrale 
+		\item [$\bullet$] Faible consommation d'énergie 
+		
+		\item [$\bullet$]Un coût réduit pour la réalisation du système
+	\end{itemize}
+	\textbf{Le système est censé mesurer les paramètres suivants :}
+	\begin{itemize}
+		\item  [$\bullet$] La température dans la ruche 
+		\item [$\bullet$] L’humidité sous la couverture de la ruche 
+		\item [$\bullet$] Le poids de la ruche 
+		\item [$\bullet$] Les données climatique (Température, Humidité, …) 
+		\item [$\bullet$] La concentration de monoxyde de carbone 
+		\item [$\bullet$] En plus, il doit fournir des données de diagnostic.
+	\end{itemize}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}
